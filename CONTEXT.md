@@ -32,7 +32,7 @@
 - #27 use more defaults - markstuart "see if we can get budget", not approved.
 
 ## Gap ledger (dedupe - READ FIRST, never re-pick)
-- 2026-09-06 issue #75 (redis username support) - in progress this run.
+- 2026-09-06 issue #75 (redis username support) - pr-opened (fork PR #1, feature/redis-username). Added optional ckanext.security.redis.username to RedisClient + README. Verified: py_compile + flake8 clean + functional test (username passed when set, None default). No upstream PR/issue covers it.
 
 ## Mined gaps (discovered, not yet attempted)
 - 2026-09-06 docs: README config block lists redis host/port/db/password but not username; if username support added, document it. status: proposed
