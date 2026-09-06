@@ -148,6 +148,7 @@ ckanext.security.redis.host = 127.0.0.1
 ckanext.security.redis.port = 6379
 ckanext.security.redis.db = 1                     # ckan uses db 0
 ckanext.security.redis.password = StrongPassword  # optional password for Redis
+ckanext.security.redis.username = default         # optional username for Redis
 
 # 15 minute timeout with 10 attempts
 ckanext.security.lock_timeout = 900               # Login throttling lock period
